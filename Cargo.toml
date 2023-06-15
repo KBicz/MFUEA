@@ -1,0 +1,23 @@
+[package]
+name = "mfuea"
+version = "1.0.0"
+authors = ["Kamil Bicz"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+libm = "0.2.6"
+gnuplot = "0.0.37"
+indicatif = "0.17.3"
+ansi_term = "0.12.1"
+statistical = "1.0.0"
+
+[[bin]]
+name = "mfuea"
+path = "src/main.rs"
+
+[profile.release]
+lto = "thin"
+opt-level = 3
