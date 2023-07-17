@@ -1,18 +1,18 @@
 # MFUEA
-Program to model the modulated stellar flare by the stellar rotation using the Differential Evolution method (DE). Program is based on the Kopparapu et al.(2014). Compile it using command "cargo build --release". The infput file to the program needs the four-column file where:
+Program to model the modulated stellar flare by the stellar rotation using the Differential Evolution method (DE). To properly use the program you have to install gnuplot on your computer. Compile it using the command "cargo build --release". The input file to the program needs the four-column file where:
 - the first column is the time,
 - the second column is the flux of the star with rotational modulation,
 - the third column is the error of the flux,
 - the fourth column is the model of rotational modulation,
 
-additionaly the first line of the input file needs to start with the comment: # index_of_the_flare_start_in_the_data index_of_the_flare_end_in_the_data (example: # 81 141).
+Additionally, the first line of the input file needs to start with the comment: # index_of_the_flare_start_in_the_data index_of_the_flare_end_in_the_data (example: # 81 141).
 
     Program mfuea written by K. Bicz for Linux, Mac, and Windows, version of 13 Mar 2023.
-    Usage: modulateflare <-lc=file> [-cross=f64] [-mut=f64] [-npop=int] [-niter=f64] [-prot=f64]
-                         [-imin=f64] [-imax=f64] [-lamin=f64] [-lamax=f64] [-lomin=f64] [-lomax=f64]
-                         [-nparams=4/7/8] [-npts=i64] [-teff=f64] [-rad=f64] [-terr=f64] [-raderr=f64]
-                         [-logg=f64] [-respf=str] [-frad=f64] [-famp] [--limbd] [--noprof] [--energy]
-                         [--plot] [--save]
+    Usage: mfuea <-lc=file> [-cross=f64] [-mut=f64] [-npop=int] [-niter=f64] [-prot=f64]
+                       [-imin=f64] [-imax=f64] [-lamin=f64] [-lamax=f64] [-lomin=f64] [-lomax=f64]
+                       [-nparams=4/7/8] [-npts=i64] [-teff=f64] [-rad=f64] [-terr=f64] [-raderr=f64]
+                       [-logg=f64] [-respf=str] [-frad=f64] [-famp] [--limbd] [--noprof] [--energy]
+                       [--plot] [--save]
  
          option  -lc      : file with the light curve of the event.
                  -cross   : crossing value (default cross = 0.1).
