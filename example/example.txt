@@ -1,1 +1,1 @@
-MFUEA -lc=modflare_new_slice.txt -imin=69.9999 -imax=70.0001 --plot --energy --limbd
+mfuea -lc=modflare_new_slice.txt -imin=69.9999 -imax=70.0001 --plot --energy --limbd
