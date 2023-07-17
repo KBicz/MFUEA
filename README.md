@@ -9,10 +9,10 @@ Additionally, the first line of the input file needs to start with the comment: 
 
     Program mfuea written by K. Bicz for Linux, Mac, and Windows, version of 13 Mar 2023.
     Usage: mfuea <-lc=file> [-cross=f64] [-mut=f64] [-npop=int] [-niter=f64] [-prot=f64]
-                       [-imin=f64] [-imax=f64] [-lamin=f64] [-lamax=f64] [-lomin=f64] [-lomax=f64]
-                       [-nparams=4/7/8] [-npts=i64] [-teff=f64] [-rad=f64] [-terr=f64] [-raderr=f64]
-                       [-logg=f64] [-respf=str] [-frad=f64] [-famp] [--limbd] [--noprof] [--energy]
-                       [--plot] [--save]
+                 [-imin=f64] [-imax=f64] [-lamin=f64] [-lamax=f64] [-lomin=f64] [-lomax=f64]
+                 [-nparams=4/7/8] [-npts=i64] [-teff=f64] [-rad=f64] [-terr=f64] [-raderr=f64]
+                 [-logg=f64] [-respf=str] [-frad=f64] [-famp] [--limbd] [--noprof] [--energy]
+                 [--plot] [--save]
  
          option  -lc      : file with the light curve of the event.
                  -cross   : crossing value (default cross = 0.1).
