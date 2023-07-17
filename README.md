@@ -5,7 +5,7 @@ Program to model the modulated stellar flare by the stellar rotation using the D
 - the third column is the error of the flux,
 - the fourth column is the model of rotational modulation,
 
-Additionally, the first line of the input file needs to start with the comment: # index_of_the_flare_start_in_the_data index_of_the_flare_end_in_the_data (example: # 81 141).
+Additionally, the first line of the input file needs to start with the comment: # index_of_the_flare_start_in_the_data index_of_the_flare_end_in_the_data (example: # 81 141). An example of how to use the software is in the "example" directory.
 
     Program mfuea written by K. Bicz for Linux, Mac, and Windows, version of 13 Mar 2023.
     Usage: mfuea <-lc=file> [-cross=f64] [-mut=f64] [-npop=int] [-niter=f64] [-prot=f64]
